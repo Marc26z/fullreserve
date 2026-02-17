@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Reserve - Bitcoin Education</title>
+    <style>
+        ** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #cc0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #cc0000;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.world-record {
+    color: #cc0000;
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 40px auto;
+    border: 3px solid #cc0000;
+    border-radius: 8px;
+    display: block;
+}
+
+.blog-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.section-title {
+    color: #cc0000;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    place-items: center;
+}
+
+.blog-card {
+    background-color: #111;
+    border: 2px solid #cc0000;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    max-width: 280px;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(204, 0, 0, 0.3);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-card h3 {
+    color: #cc0000;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.blog-card p {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .world-record {
+        font-size: 1.5em;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .hero-image {
+        max-width: 90vw;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .world-record {
+        font-size: 1.2em;
+    }
+
+    .section-title {
+        font-size: 1.3em;
+    }
+
+    .blog-card h3 {
+        font-size: 1.1em;
+    }
+    footer {
+    background-color: #111;
+    border-top: 2px solid #cc0000;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+footer {
+    background-color: #111;
+    border-top: 2px solid #cc0000;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #aaa;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-image {
+    max-width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #cc0000;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(204, 0, 0, 0.3);
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Full Reserve</h1>
+        <p style="color: #cc0000; font-size: 1.2em;">Bitcoin Education Hub</p>
+    </header>
+
+    <section class="hero-section">
+        <div class="world-record">🏆Earn Sats, Spend Sats, Save Sats🏆</div>
+        <img src="https://raw.githubusercontent.com/Marc26z/fullReserveBitcoin/7bc7bccab1af821323b557bff33430728959bcdc/tipJarFullReserve.png" 
+             alt="Full Reserve Tip Jar" class="hero-image">
+    </section>
+
+    <section class="blog-section">
+        <h2 class="section-title">Featured Blog Posts</h2>
+        <div class="blog-grid" id="blogGrid"></div>
+    </section>
+
+   <footer>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+        <p style="text-align: center;"><b>Support our mission by clicking the tip jar or scanning the QR code flag</b>.</p>
+        <a href="https://zapmeacoffee.com/npub1marc26z8nh3xkj5rcx7ufkatvx6ueqhp5vfw9v5teq26z254renshtf3g0" class="footer-link" style="display: flex; justify-content: center;">
+            <img src="https://raw.githubusercontent.com/Marc26z/fullReserveBitcoin/refs/heads/main/blog/assets/TipJarForEdu_1.jpg" alt="Tip Jar" class="footer-image">
+        </a>
+        <p style="text-align: center;">Your support helps us continue creating quality content</p>
+        <p style="text-align: center; max-width: 600px;">
+            &copy; 2026 Full Reserve. Dedicated To Bitcoin(As In Freedom Money) Education. Not Financial Advice. I don't even trade nor talk about price. My goal is to demonstrate bitcoin is a viable alternative to the penny.
+        </p>
+    </div>
+</footer>
+    <script>
+        const blogs = [
+            {
+                title: "Save Payment Processing Fees With Square Bitcoin Terminals",
+                url: "https://habla.news/marc/-marketing-square-bitcoin-payments",
+                image: "https://r2.primal.net/cache/6/2a/bf/62abfc99e62fcae5c299abc32de2d8e6903d3a4de000574c46883c8413864eaf.jpg"
+            },
+            {
+                title: "Give Bitcoin with CashU Cards",
+                url: "https://habla.news/marc/give-bitcoin-with-cashu-cards",
+                image: "https://github.com/Marc26z/CashuCards/blob/main/modus.png?raw=true"
+            },
+            {
+                title: "The Nostr Tip Jar",
+                url: "https://habla.news/marc/de10e58dab10d87d1250554ab6b2a567",
+                image: "https://raw.githubusercontent.com/Marc26z/NostrTipJars/f6a4cdddcd1cdda2df788efabf71da888b0ed095/assets/TC_1770574626567%20(1).jpg"
+            },
+            {
+                title: "Prepper Garden Fresh Tomato Soup",
+                url: "https://habla.news/marc/prepper-garden-fresh-tomato-soup",
+                image: "https://image.nostr.build/c33f4213155f905079b373a7277a6005f9ae6097ba4b9e23001569db7767110a.png"
+            },
+            {
+                title: "SoapMiner Review",
+                url: "https://habla.news/marc/soapminer-review",
+                image: "https://raw.githubusercontent.com/Marc26z/fullReserveBitcoin/5b6ef2e33e8e3e9f42ef2b0e708468ae16dcc0d4/blog/assets/soapMiner.png"
+            },
+            {
+                title: "Extracting and Decoding the Bitcoin Genesis Script",
+                url: "https://habla.news/marc/extracting-and-decoding-the-bitcoin-genesis-script",
+                image: "https://raw.githubusercontent.com/Marc26z/zapthisblog/13668ceceeaa0be0e21c4d3d0f5615c5320d9c74/pictures/dontpamthetimechainpic.png"
+            },
+            {
+                title: "Buy a Cup of Coffee",
+                url: "https://habla.news/marc/buy-a-cup-of-coffee",
+                image: "https://blossom.primal.net/07b1db1e4544bc23b4501dccaabff94797cc4c0f76a20ba62da650591fb6818d.png"
+            },
+            {
+                title: "The Sat Swear Jar",
+                url: "https://primal.net/marc/the-sat-swear-jar",
+                image: "https://r2.primal.net/cache/5/3d/38/53d38c65ed28ec5f4ac5fef9e82a4edb4ebc4acf9959f515ddfb06f287a988d6.jpg"
+            }
+        ];
+
+        const blogGrid = document.getElementById('blogGrid');
+
+        blogs.forEach(blog => {
+            const card = document.createElement('div');
+            card.className = 'blog-card';
+            card.innerHTML = `
+                <img src="${blog.image}" alt="${blog.title}" onerror="this.src='https://via.placeholder.com/280x200?text=${encodeURIComponent(blog.title)}'">
+                <div class="blog-card-content">
+                    <h3>${blog.title}</h3>
+                    <p>Read the full article on Habla News</p>
+                    <a href="${blog.url}" target="_blank">Read More</a>
+                </div>
+            `;
+            blogGrid.appendChild(card);
+        });
+    </script>
+</body>
+</html>
