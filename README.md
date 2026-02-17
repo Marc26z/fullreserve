@@ -7,6 +7,6 @@ The tip jar at the bottom currently has a link to zap me a coffee.
 ### Road Map
 I plan to add a Support Page based on [Gigi's Support Page](https://dergigi.com/support/) 
 #### Lightning Backend
-I use [Albyhub](https://albyhub.com/). I tested it while it was in alpha mode and know how to run it on my own hardware, but I prefer to use the cloud to support the project and it still runs when my computer dies. If you're less tehnial, you can use alby hub to create your own lightning address.
+I use [Albyhub](https://albyhub.com/). I tested it while it was in alpha mode and know how to run it on my own hardware, but I prefer to use the cloud to support the project and it still runs when my computer dies. If you're less technial, you can use alby hub to create your own lightning address.
 ##### Tip Jar
-The tip jar is based on [this repository](https://github.com/Marc26z/NostrTipJars) I made to help people who work at businesses that accept bitcoin to accept bitcoin tips. I use lightning:fullreserve@getalby.com for the QR code, but if you're not technical you can use any lightning address you have listed on Primal and take a screenshot of the lightning address QR code.
+The tip jar is based on [this repository](https://github.com/Marc26z/NostrTipJars) I made to help people who work at businesses that accept bitcoin to accept bitcoin tips. I use `lightning:fullreserve@getalby.com` for the QR code, but if you're not technical you can use any lightning address you have listed on Primal and take a screenshot of the lightning address QR code.
